@@ -1,0 +1,66 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
+    <DockerfileContext>.</DockerfileContext>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\fonts\1YwB1sO8YE1Lyjf12WNiUA.woff2" />
+    <None Include="wwwroot\fonts\APH4jr0uSos5wiut5cpjrugdm0LZdjqr5-oayXSOefg.woff2" />
+    <None Include="wwwroot\fonts\cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2" />
+    <None Include="wwwroot\fonts\dPJ5r9gl3kK6ijoeP1IRsvY6323mHUZFJMgTvxaG2iE.woff2" />
+    <None Include="wwwroot\fonts\DXI1ORHCpsQm3Vp6mXoaTa-j2U0lmluP9RWlSytm3ho.woff2" />
+    <None Include="wwwroot\fonts\DXI1ORHCpsQm3Vp6mXoaTaaRobkAwv3vxw3jMhVENGA.woff2" />
+    <None Include="wwwroot\fonts\DXI1ORHCpsQm3Vp6mXoaTegdm0LZdjqr5-oayXSOefg.woff2" />
+    <None Include="wwwroot\fonts\DXI1ORHCpsQm3Vp6mXoaTf8zf_FOSsgRmwsS7Aa9k2w.woff2" />
+    <None Include="wwwroot\fonts\DXI1ORHCpsQm3Vp6mXoaTRWV49_lSm1NYrwo-zkhivY.woff2" />
+    <None Include="wwwroot\fonts\DXI1ORHCpsQm3Vp6mXoaTZX5f-9o1vgP2EXwfjgl7AY.woff2" />
+    <None Include="wwwroot\fonts\eFRpvGLEW31oiexbYNx7Y_esZW2xOQ-xsNqO47m55DA.woff2" />
+    <None Include="wwwroot\fonts\EsvMC5un3kjyUhB9ZEPPwg.woff2" />
+    <None Include="wwwroot\fonts\fonts.css" />
+    <None Include="wwwroot\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="wwwroot\fonts\glyphicons-halflings-regular.svg" />
+    <None Include="wwwroot\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="wwwroot\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="wwwroot\fonts\GtRkRNTnri0g82CjKnEB0Q.woff2" />
+    <None Include="wwwroot\fonts\H2DMvhDLycM56KNuAtbJYA %281%29.woff2" />
+    <None Include="wwwroot\fonts\H2DMvhDLycM56KNuAtbJYA.woff2" />
+    <None Include="wwwroot\fonts\k3k702ZOKiLJc3WVjuplzOgdm0LZdjqr5-oayXSOefg.woff2" />
+    <None Include="wwwroot\fonts\Lqv9ztoTUV8Q0FmQZzPqaBRcxZ7No-r1mAtcnpNU5cQ.woff2" />
+    <None Include="wwwroot\fonts\Lqv9ztoTUV8Q0FmQZzPqaL4J1CEROx9mnpUAGKYKzuk.woff2" />
+    <None Include="wwwroot\fonts\ObQr5XYcoH0WBoUxiaYK3_Y6323mHUZFJMgTvxaG2iE.woff2" />
+    <None Include="wwwroot\fonts\Q_Z9mv4hySLTMoMjnk_rCfesZW2xOQ-xsNqO47m55DA.woff2" />
+    <None Include="wwwroot\fonts\R4a6fty3waPci7C44H8AjvY6323mHUZFJMgTvxaG2iE.woff2" />
+    <None Include="wwwroot\fonts\tI4j516nok_GrVf4dhunkg.woff2" />
+    <None Include="wwwroot\fonts\UyBMtLsHKBKXelqf4x7VRQ.woff2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BuildBundlerMinifier" Version="2.9.406" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.7.8" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Resources\Resource.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resource.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Resources\Resource.fr-FR.resx">
+      <Generator></Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Resource.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
