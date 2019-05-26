@@ -3,19 +3,19 @@
     ViewData["Title"] = Resource.Home;
 }
 
-    <div class="jumbotron home-search" style="">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <br />
-                    <h2 class="main_description">@Resource.WelcomeHeader</h2>
-                    <p>@Html.Raw(Resource.HomeText)</p>
-                    <br />
-                    <br />
-                </div>
+<div class="jumbotron home-search" style="">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <br />
+                <h2 class="main_description">@Resource.WelcomeHeader</h2>
+                <p>@Html.Raw(Resource.HomeText)</p>
+                <br />
+                <br />
             </div>
         </div>
     </div>
+</div>
 
 <div class="container">
 
@@ -30,18 +30,17 @@
             </div>
 
             <div class="row directory">
-
-
                 <div class="col-xs-12">
-                    <div class="directory-block col-sm-4 col-xs-6">
+                    <div class="directory-block col-sm-4 col-xs-12">
                         <div class="row">
-                            <a href="#/passportAppointment">
-                                <div class="col-md-1">
+                            <a target="_blank" href="https://github.com/tamazight-nlu/NLU">
+                                <div class="col-md-1 col-xs-1">
                                     <i class="fa fa-file-text"></i>
                                 </div>
-                                <div class="col-sm-9">
+                                <div class="col-sm-9 col-xs-9">
                                     <h4>@Resource.NLU</h4>
                                     <p>@Resource.AboutNlu</p>
+                                    <span class="badge badge-Success">@Resource.ViewonGithut</span>
                                 </div>
                             </a>
 
@@ -49,41 +48,83 @@
 
                     </div>
 
-                    <div class="directory-block col-sm-4 col-xs-6">
+                    <div class="directory-block col-sm-4 col-xs-12">
                         <div class="row">
-                            <div class="col-sm-1">
-                                <i class="fa fa-file-text-o"></i>
-                            </div>
-                            <div class="col-sm-9">
-                                <h4>@Resource.NLP</h4>
-                                <p>@Resource.AboutNlp</p>
-                            </div>
+                            <a target="_blank" href="https://github.com/tamazight-nlu/NLP">
+                                <div class="col-sm-1 col-xs-1">
+                                    <i class="fa fa-file-text-o"></i>
+                                </div>
+                                <div class="col-sm-9 col-xs-9">
+                                    <h4>@Resource.NLP</h4>
+                                    <p>@Resource.AboutNlp</p>
+                                    <span class="badge badge-Success">@Resource.ViewonGithut</span>
+                                </div>
+                            </a>
                         </div>
                     </div>
 
-                    <div class="directory-block col-sm-4 col-xs-6">
+                    <div class="directory-block col-sm-4 col-xs-12">
                         <div class="row">
-                            <div class="col-sm-1">
-                                <i class="fa fa-file-text-o"></i>
-                            </div>
-                            <div class="col-sm-9">
-                                <h4>@Resource.SpeechRecognition</h4>
-                                <p>@Resource.AboutSpeechRecognition</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="directory-block col-sm-4 col-xs-6">
-                        <div class="row">
-                            <div class="col-sm-1">
-                                <i class="fa fa-file-text"></i>
-                            </div>
-                            <div class="col-sm-9">
-                                <h4>@Resource.TextToSpeech</h4>
-                                <p>@Resource.AboutTextToSpeech</p>
-                            </div>
+                            <a target="_blank" href="https://github.com/tamazight-nlu/SpeechRecognition">
+                                <div class="col-sm-1 col-xs-1">
+                                    <i class="fa fa-file-text-o"></i>
+                                </div>
+                                <div class="col-sm-9 col-xs-9">
+                                    <h4>@Resource.SpeechRecognition</h4>
+                                    <p>@Resource.AboutSpeechRecognition</p>
+                                    <span class="badge badge-Success">@Resource.ViewonGithut</span>
+                                </div>
+                            </a>
                         </div>
                     </div>
 
+                </div>
+            </div>
+
+            <div class="row directory">
+                <div class="col-xs-12">
+                    <div class="directory-block col-sm-4 col-xs-12">
+                        <a target="_blank" href="https://github.com/tamazight-nlu/TextToSpeech">
+                            <div class="row">
+                                <div class="col-sm-1 col-xs-1">
+                                    <i class="fa fa-file-text"></i>
+                                </div>
+                                <div class="col-sm-9 col-xs-9">
+                                    <h4>@Resource.TextToSpeech</h4>
+                                    <p>@Resource.AboutTextToSpeech</p>
+                                    <span class="badge badge-Success">@Resource.ViewonGithut</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="directory-block col-sm-4 col-xs-12">
+                        <a  >
+                            <div class="row">
+                                <div class="col-sm-1 col-xs-1">
+                                    <i class="fa fa-file-text"></i>
+                                </div>
+                                <div class="col-sm-9 col-xs-9">
+                                    <h4>@Resource.SpellChecker</h4>
+                                    <span class="badge badge-Success">@Resource.AboutSpellChecker</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="directory-block col-sm-4 col-xs-12">
+                        <a >
+                            <div class="row">
+                                <div class="col-sm-1 col-xs-1">
+                                    <i class="fa fa-file-text"></i>
+                                </div>
+                                <div class="col-sm-9 col-xs-9">
+                                    <h4>@Resource.Demos</h4>
+                                    <span class="badge badge-Success">@Resource.AboutDemos</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>

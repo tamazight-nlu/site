@@ -120,23 +120,36 @@
   <data name="About" xml:space="preserve">
     <value>About</value>
   </data>
+  <data name="AboutDemos" xml:space="preserve">
+    <value>Work in progress</value>
+  </data>
   <data name="AboutNlp" xml:space="preserve">
-    <value>AboutNlp</value>
+    <value>Natural Language Processing is a subfield of Artificial Intelligence that is concerned about the interaction between computers and human natural language”. NLP makes it possible for computers to read text, hear speech and interpret it, measure sentiment and even determine which parts are relevant. It has become really helpful resolving ambiguity in language and adds numeric structure to the data for many downstream applications.</value>
   </data>
   <data name="AboutNlu" xml:space="preserve">
-    <value>About Nlu</value>
+    <value>Subtopic of Natural Language Processing that uses AI to comprehend input made in the form of sentences in text or speech format. It enables computers to understand commands without the formalized syntax of computer languages and it also enables computers to communicate back to humans in their own languages.&lt;br/&gt;
+
+</value>
   </data>
   <data name="AboutSpeechRecognition" xml:space="preserve">
-    <value>AboutSpeechRecognition</value>
+    <value>Takes audio content and transcribes it into written words in a word processor or other display destination. Extremely valuable to anyone who needs to generate a lot of written content without a lot of manual typing. It is also useful for people with disabilities that make it difficult for them to use a keyboard.&lt;br&gt;
+
+Speech-to-text may also be known as voice recognition</value>
+  </data>
+  <data name="AboutSpellChecker" xml:space="preserve">
+    <value>Work in progress</value>
   </data>
   <data name="AboutTextToSpeech" xml:space="preserve">
-    <value>AboutTextToSpeech</value>
+    <value>Form of speech synthesis that converts text into spoken voice output. Text to speech systems were first developed to aid the visually impaired by offering a computer-generated spoken voice that would "read" text to the user.</value>
   </data>
   <data name="Allrightsreserved" xml:space="preserve">
     <value>All rights reserved</value>
   </data>
   <data name="ContactUs" xml:space="preserve">
     <value>Contact us</value>
+  </data>
+  <data name="Demos" xml:space="preserve">
+    <value>Demos</value>
   </data>
   <data name="Home" xml:space="preserve">
     <value>Home</value>
@@ -156,13 +169,19 @@
   <data name="SpeechRecognition" xml:space="preserve">
     <value>SpeechRecognition</value>
   </data>
+  <data name="SpellChecker" xml:space="preserve">
+    <value>Spell checker</value>
+  </data>
   <data name="TermsandConditions" xml:space="preserve">
     <value>Terms and Conditions</value>
   </data>
   <data name="TextToSpeech" xml:space="preserve">
     <value>TextToSpeech</value>
   </data>
+  <data name="ViewonGithut" xml:space="preserve">
+    <value>View on Githut</value>
+  </data>
   <data name="WelcomeHeader" xml:space="preserve">
-    <value>Online Documentation help and demos</value>
+    <value>Online Documentation</value>
   </data>
 </root>

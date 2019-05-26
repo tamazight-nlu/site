@@ -26,7 +26,10 @@
         <link rel="stylesheet" href="~/css/bootstrapBundle.min.css" />
         <link rel="stylesheet" href="~/css/font-awesome.min.css" />
         <link rel="stylesheet" href="~/css/loading-bar.min.css" />
-        <link rel="stylesheet" href="~/css/site.min.css" />
+        <link rel="stylesheet" href="~/css/site.min.css"  />
+    </environment>
+    <environment include="Development">
+        <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
     </environment>
     @if (isIE)
     {

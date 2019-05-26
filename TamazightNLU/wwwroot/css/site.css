@@ -412,6 +412,7 @@ a.navbar-brand {
 
 .directory .directory-block {
     min-height: 131px;
+    margin-bottom:15px;
 }
 
 .directory-counties {

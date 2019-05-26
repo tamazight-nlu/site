@@ -70,7 +70,16 @@ namespace TamazightNLU.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to AboutNlp.
+        ///   Looks up a localized string similar to Work in progress.
+        /// </summary>
+        public static string AboutDemos {
+            get {
+                return ResourceManager.GetString("AboutDemos", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Natural Language Processing is a subfield of Artificial Intelligence that is concerned about the interaction between computers and human natural language”. NLP makes it possible for computers to read text, hear speech and interpret it, measure sentiment and even determine which parts are relevant. It has become really helpful resolving ambiguity in language and adds numeric structure to the data for many downstream applications..
         /// </summary>
         public static string AboutNlp {
             get {
@@ -79,7 +88,9 @@ namespace TamazightNLU.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to About Nlu.
+        ///   Looks up a localized string similar to Subtopic of Natural Language Processing that uses AI to comprehend input made in the form of sentences in text or speech format. It enables computers to understand commands without the formalized syntax of computer languages and it also enables computers to communicate back to humans in their own languages.&lt;br/&gt;
+        ///
+        ///.
         /// </summary>
         public static string AboutNlu {
             get {
@@ -88,7 +99,9 @@ namespace TamazightNLU.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to AboutSpeechRecognition.
+        ///   Looks up a localized string similar to Takes audio content and transcribes it into written words in a word processor or other display destination. Extremely valuable to anyone who needs to generate a lot of written content without a lot of manual typing. It is also useful for people with disabilities that make it difficult for them to use a keyboard.&lt;br&gt;
+        ///
+        ///Speech-to-text may also be known as voice recognition.
         /// </summary>
         public static string AboutSpeechRecognition {
             get {
@@ -97,7 +110,16 @@ namespace TamazightNLU.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to AboutTextToSpeech.
+        ///   Looks up a localized string similar to Work in progress.
+        /// </summary>
+        public static string AboutSpellChecker {
+            get {
+                return ResourceManager.GetString("AboutSpellChecker", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Form of speech synthesis that converts text into spoken voice output. Text to speech systems were first developed to aid the visually impaired by offering a computer-generated spoken voice that would &quot;read&quot; text to the user..
         /// </summary>
         public static string AboutTextToSpeech {
             get {
@@ -120,6 +142,15 @@ namespace TamazightNLU.Resources {
         public static string ContactUs {
             get {
                 return ResourceManager.GetString("ContactUs", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Demos.
+        /// </summary>
+        public static string Demos {
+            get {
+                return ResourceManager.GetString("Demos", resourceCulture);
             }
         }
         
@@ -178,6 +209,15 @@ namespace TamazightNLU.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Spell checker.
+        /// </summary>
+        public static string SpellChecker {
+            get {
+                return ResourceManager.GetString("SpellChecker", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Terms and Conditions.
         /// </summary>
         public static string TermsandConditions {
@@ -196,7 +236,16 @@ namespace TamazightNLU.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Online Documentation help and demos.
+        ///   Looks up a localized string similar to View on Githut.
+        /// </summary>
+        public static string ViewonGithut {
+            get {
+                return ResourceManager.GetString("ViewonGithut", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Online Documentation.
         /// </summary>
         public static string WelcomeHeader {
             get {

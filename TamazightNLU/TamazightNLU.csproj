@@ -55,7 +55,7 @@
 
   <ItemGroup>
     <EmbeddedResource Update="Resources\Resource.fr-FR.resx">
-      <Generator></Generator>
+      <Generator>PublicResXFileCodeGenerator</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Resources\Resource.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
